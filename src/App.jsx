@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+	const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<>
+			About Services Projects Contact We are creatives Transform your brand We
+			are a full-service creative agency specializing in helping brands grow
+			fast. Engage your clients through compelling visuals that do most of the
+			marketing for you. Learn more Stand out to the right audience Using a
+			collaborative formula of designers, researchers, photographers,
+			videographers, and copywriters, we’ll build and extend your brand in
+			digital places. Learn more Graphic design Great design makes you
+			memorable. We deliver artwork that underscores your brand message and
+			captures potential clients’ attention. Photography Increase your
+			credibility by getting the most stunning, high-quality photos that improve
+			your business image. Client testimonials We put our trust in Sunnyside and
+			they delivered, making sure our needs were met and deadlines were always
+			hit. Emily R. Marketing Director Sunnyside’s enthusiasm coupled with their
+			keen interest in our brand’s success made it a satisfying and enjoyable
+			experience. Thomas S. Chief Operating Officer Incredible end result! Our
+			sales increased over 400% when we worked with Sunnyside. Highly
+			recommended! Jennie F. Business Owner About Services Projects Contact
+			<div className="attribution">
+				Challenge by{' '}
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+					Frontend Mentor
+				</a>
+				. Coded by <a href="#">Your Name Here</a>.
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;

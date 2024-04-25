@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Footer from './components/FooterComponent/Footer';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 			experience. Thomas S. Chief Operating Officer Incredible end result! Our
 			sales increased over 400% when we worked with Sunnyside. Highly
 			recommended! Jennie F. Business Owner About Services Projects Contact
+			<Footer />
 			<div className="attribution">
 				Challenge by{' '}
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">

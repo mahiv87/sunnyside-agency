@@ -1,0 +1,22 @@
+.container {
+	background-color: hsl(168, 34%, 41%);
+	padding: 2rem 0rem;
+}
+
+.title {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	color: hsl(167, 40%, 24%);
+	font-size: 1.5rem;
+	margin-top: 0;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconContainer img {
+	padding-inline: 0.7rem;
+}

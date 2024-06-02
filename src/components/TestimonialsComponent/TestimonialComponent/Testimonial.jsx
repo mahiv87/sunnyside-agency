@@ -5,10 +5,10 @@ import styles from '../TestimonialComponent/Testimonial.module.css';
 function Testimonial({ avatar, text, author, title }) {
 	return (
 		<div className={styles.container}>
-			<img src={avatar} alt="avatar" />
-			<p>{text}</p>
-			<p>{author}</p>
-			<p>{title}</p>
+			<img className={styles.avatar} src={avatar} alt="avatar" />
+			<p className={styles.text}>{text}</p>
+			<p className={styles.author}>{author}</p>
+			<p className={styles.title}>{title}</p>
 		</div>
 	);
 }

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Footer from './components/FooterComponent/Footer';
 import ImageCluster from './components/ImageClusterComponent/ImageCluster';
+import Testimonials from './components/TestimonialsComponent/Testimonials';
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			experience. Thomas S. Chief Operating Officer Incredible end result! Our
 			sales increased over 400% when we worked with Sunnyside. Highly
 			recommended! Jennie F. Business Owner About Services Projects Contact
+			<Testimonials />
 			<ImageCluster />
 			<Footer />
 			<div className="attribution">

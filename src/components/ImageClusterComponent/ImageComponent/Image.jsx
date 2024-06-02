@@ -5,7 +5,7 @@ import styles from '../ImageComponent/Image.module.css';
 function Image({ imageUrl }) {
 	return (
 		<div
-			style={{ backgroundImage: { imageUrl } }}
+			style={{ backgroundImage: `url(${imageUrl})` }}
 			className={styles.image}
 		></div>
 	);

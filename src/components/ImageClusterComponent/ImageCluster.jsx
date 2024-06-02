@@ -10,9 +10,9 @@ function ImageCluster() {
 	return (
 		<div className={styles.container}>
 			<Image imageUrl={MilkBottles} />
+			<Image imageUrl={Orange} />
 			<Image imageUrl={Cone} />
 			<Image imageUrl={SugarCubes} />
-			<Image imageUrl={Orange} />
 		</div>
 	);
 }

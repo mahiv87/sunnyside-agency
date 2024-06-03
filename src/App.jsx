@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/FooterComponent/Footer';
 import ImageCluster from './components/ImageClusterComponent/ImageCluster';
 import Testimonials from './components/TestimonialsComponent/Testimonials';
+import Card from './components/CardComponent/Card';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			captures potential clients’ attention. Photography Increase your
 			credibility by getting the most stunning, high-quality photos that improve
 			your business image.
+			<Card />
 			<Testimonials />
 			<ImageCluster />
 			<Footer />

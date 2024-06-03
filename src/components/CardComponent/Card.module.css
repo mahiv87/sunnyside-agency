@@ -42,11 +42,11 @@
 	height: 9px;
 	background-color: hsl(51, 100%, 49%);
 	border-radius: 4px;
-	opacity: 0;
+	opacity: 0.5;
 	z-index: -1;
 	transform: translate(-50%);
 }
 
-.link:hover::after {
+/* .link:hover::after {
 	opacity: 0.5;
-}
+} */

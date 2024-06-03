@@ -15,4 +15,20 @@
 	font-variation-settings: 'SOFT' 0, 'WONK' 0;
 	font-size: 38px;
 	color: hsl(212, 27%, 19%);
+	margin: 4rem 0 0 0;
+}
+
+.text {
+	color: hsl(232, 10%, 55%);
+	padding: 0rem 3rem;
+}
+
+.link {
+	font-family: 'Fraunces', serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-variation-settings: 'SOFT' 0, 'WONK' 0;
+	font-size: 24px;
+	color: hsl(212, 27%, 19%);
 }

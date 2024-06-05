@@ -8,7 +8,7 @@ import Hero from './components/HeroComponent/Hero';
 
 function App() {
 	return (
-		<>
+		<div>
 			<Hero />
 			<Card />
 			<Testimonials />
@@ -21,7 +21,7 @@ function App() {
 				</a>
 				. Coded by <a href="#">Your Name Here</a>.
 			</div>
-		</>
+		</div>
 	);
 }
 

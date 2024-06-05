@@ -45,11 +45,12 @@
 	height: 9px;
 	background-color: hsl(51, 100%, 49%);
 	border-radius: 4px;
-	opacity: 0.5;
+	opacity: 0;
 	z-index: -1;
 	transform: translate(-50%);
+	transition: all 150ms ease-in-out;
 }
 
-/* .link:hover::after {
+.link:hover::after {
 	opacity: 0.5;
-} */
+}

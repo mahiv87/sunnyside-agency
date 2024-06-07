@@ -1,5 +1,3 @@
-import React from 'react';
-
 import logo from '../../assets/images/logo.svg';
 import hamburger from '../../assets/images/icon-hamburger.svg';
 import ArrowImage from '../../assets/images/icon-arrow-down.svg';

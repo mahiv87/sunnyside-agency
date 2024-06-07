@@ -1,29 +1,27 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 import styles from '../CardComponent/Card.module.css';
 
-import TransformImg from '../../assets/images/mobile/image-transform.jpg';
-
-function Card(props) {
+function Card({ image, title, text, link }) {
 	return (
 		<div className={styles.container}>
 			<img
-				src={TransformImg}
+				src={image}
 				alt="An egg on a yellow background"
 				className={styles.image}
 			/>
-			<p className={styles.title}>Transform your brand</p>
-			<p className={styles.text}>
-				We are a full-service creative agency specializing in helping brands
-				grow fast. Engage your clients through compelling visuals that do most
-				of the marketing for you.
-			</p>
-			<p className={styles.link}>LEARN MORE</p>
+			<p className={styles.title}>{title}</p>
+			<p className={styles.text}>{text}</p>
+			<p className={styles.link}>{link}</p>
 		</div>
 	);
 }
 
-Card.propTypes = {};
+Card.propTypes = {
+	image: PropTypes.string.isRequired,
+	title: PropTypes.string.isRequired,
+	text: PropTypes.string.isRequired,
+	link: PropTypes.string
+};
 
 export default Card;

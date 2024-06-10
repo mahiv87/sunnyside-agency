@@ -1,5 +1,18 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	height: 680px;
+	justify-content: flex-end;
+	align-items: center;
+	height: 625px;
+	padding: 0rem 1rem 3rem 1rem;
+}
+
+.title {
+	font-family: 'Fraunces', serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-variation-settings: 'SOFT' 0, 'WONK' 0;
+	font-size: 32px;
+	margin: 0 0 1rem 0;
 }

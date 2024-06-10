@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/FooterComponent/Footer';
 import ImageCluster from './components/ImageClusterComponent/ImageCluster';
 import Testimonials from './components/TestimonialsComponent/Testimonials';
-import Card from './components/CardComponent/Card';
+import Card from './components/CardComponents/PrimaryCard/PrimaryCard';
 import Hero from './components/HeroComponent/Hero';
 import TransformImage from './assets/images/mobile/image-transform.jpg';
 import StandOutImage from './assets/images/mobile/image-stand-out.jpg';

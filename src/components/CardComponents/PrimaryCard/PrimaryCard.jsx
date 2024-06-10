@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import styles from '../CardComponent/Card.module.css';
+import styles from './PrimaryCard.module.css';
 
 function Card({ image, title, text, link }) {
 	return (

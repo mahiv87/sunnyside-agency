@@ -17,17 +17,21 @@ function App() {
 			<Hero />
 			<Card
 				image={TransformImage}
+				altTag="An egg on a yellow background"
 				title="Transform your brand"
 				text="We are a full-service creative agency specializing in helping brands
 				grow fast. Engage your clients through compelling visuals that do most
 				of the marketing for you."
 				link="LEARN MORE"
+				underlineColor="hsl(51, 100%, 49%)"
 			/>
 			<Card
 				image={StandOutImage}
+				altTag="A soft red glass on a soft red background"
 				title="Stand out to the right audience"
 				text="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places."
 				link="LEARN MORE"
+				underlineColor="hsl(7, 99%, 70%)"
 			/>
 			<SecondaryCard
 				image={GraphicDesignImage}

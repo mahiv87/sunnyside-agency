@@ -40,16 +40,16 @@
 	position: absolute;
 	bottom: 0px;
 	left: 50%;
-	width: 190px;
+	width: 140px;
 	height: 9px;
-	background-color: hsl(51, 100%, 49%);
+	/* background-color: hsl(51, 100%, 49%); */
 	border-radius: 4px;
-	opacity: 0;
+	opacity: 0.5;
 	z-index: -1;
 	transform: translate(-50%);
 	transition: all 150ms ease-in-out;
 }
 
 .link:hover::after {
-	opacity: 0.5;
+	opacity: 1;
 }

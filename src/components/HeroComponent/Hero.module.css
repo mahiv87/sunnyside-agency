@@ -12,7 +12,7 @@
 }
 
 .nav {
-	width: 85%;
+	width: 375px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -24,13 +24,27 @@
 
 .dropdown {
 	position: absolute;
-	top: 60px; /* Adjust based on your layout */
+	top: 90px;
 	left: 50%;
+	width: 375px;
+	height: 425px;
 	background-color: white;
 	clip-path: polygon(0 10%, 89% 10%, 100% 0, 100% 100%, 0 100%);
-	width: 79%;
-	transform: translateX(-50%);
 	z-index: 1000;
+}
+
+.dropdown ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown li {
+	margin: 10px 0;
+}
+
+.show {
+	animation: slideDown 0.3s forwards;
 }
 
 .title {
@@ -43,4 +57,15 @@
 	letter-spacing: 6.5px;
 	color: hsl(0, 0%, 100%);
 	padding: 3.85rem 1rem;
+}
+
+@keyframes slideDown {
+	0% {
+		opacity: 0;
+		transform: translate(-50%, -20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
 }

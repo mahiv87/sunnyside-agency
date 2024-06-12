@@ -26,7 +26,7 @@ function Hero() {
 					/>
 				</div>
 				{menuOpen && (
-					<div className={styles.dropdown}>
+					<div className={`${styles.dropdown} ${menuOpen ? styles.show : ''}`}>
 						<ul>
 							<li>
 								<a href="#">About</a>

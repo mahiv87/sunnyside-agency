@@ -18,6 +18,21 @@
 	align-items: center;
 }
 
+.menu {
+	cursor: pointer;
+}
+
+.dropdown {
+	position: absolute;
+	top: 60px; /* Adjust based on your layout */
+	left: 50%;
+	background-color: white;
+	clip-path: polygon(0 10%, 89% 10%, 100% 0, 100% 100%, 0 100%);
+	width: 79%;
+	transform: translateX(-50%);
+	z-index: 1000;
+}
+
 .title {
 	font-family: 'Fraunces', serif;
 	font-optical-sizing: auto;

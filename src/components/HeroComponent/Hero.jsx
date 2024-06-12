@@ -24,25 +24,25 @@ function Hero() {
 						id="menu"
 						onClick={toggleMenu}
 					/>
-					{menuOpen && (
-						<div className={styles.dropdown}>
-							<ul>
-								<li>
-									<a href="#">About</a>
-								</li>
-								<li>
-									<a href="#"></a>Services
-								</li>
-								<li>
-									<a href="#"></a>Projects
-								</li>
-								<li>
-									<a href="#"></a>CONTACT
-								</li>
-							</ul>
-						</div>
-					)}
 				</div>
+				{menuOpen && (
+					<div className={styles.dropdown}>
+						<ul>
+							<li>
+								<a href="#">About</a>
+							</li>
+							<li>
+								<a href="#"></a>Services
+							</li>
+							<li>
+								<a href="#"></a>Projects
+							</li>
+							<li>
+								<a href="#"></a>CONTACT
+							</li>
+						</ul>
+					</div>
+				)}
 				<p className={styles.title}>WE ARE CREATIVES</p>
 				<img src={ArrowImage} alt="A white arrow pointing downwards" />
 			</div>

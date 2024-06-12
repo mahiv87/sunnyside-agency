@@ -8,15 +8,43 @@ import styles from '../HeroComponent/Hero.module.css';
 function Hero() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
+	const toggleMenu = () => {
+		setMenuOpen(!menuOpen);
+	};
+
 	return (
 		<div>
 			<div className={styles.container}>
 				<div className={styles.nav}>
 					<img src={logo} alt="sunnyside logo" />
-					<img src={hamburger} alt="hamburger icon for menu" id="menu" />
+					<img
+						src={hamburger}
+						alt="hamburger icon for menu"
+						className={styles.menu}
+						id="menu"
+						onClick={toggleMenu}
+					/>
+					{menuOpen && (
+						<div className={styles.dropdown}>
+							<ul>
+								<li>
+									<a href="#">About</a>
+								</li>
+								<li>
+									<a href="#"></a>Services
+								</li>
+								<li>
+									<a href="#"></a>Projects
+								</li>
+								<li>
+									<a href="#"></a>CONTACT
+								</li>
+							</ul>
+						</div>
+					)}
 				</div>
 				<p className={styles.title}>WE ARE CREATIVES</p>
-				<img src={ArrowImage} alt="" />
+				<img src={ArrowImage} alt="A white arrow pointing downwards" />
 			</div>
 		</div>
 	);

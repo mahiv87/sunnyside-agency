@@ -28,18 +28,10 @@ function Hero() {
 				{menuOpen && (
 					<div className={`${styles.dropdown} ${menuOpen ? styles.show : ''}`}>
 						<ul>
-							<li>
-								<a href="#">About</a>
-							</li>
-							<li>
-								<a href="#"></a>Services
-							</li>
-							<li>
-								<a href="#"></a>Projects
-							</li>
-							<li>
-								<a href="#"></a>CONTACT
-							</li>
+							<li>About</li>
+							<li>Services</li>
+							<li>Projects</li>
+							<li className={styles.contactBtn}>CONTACT</li>
 						</ul>
 					</div>
 				)}

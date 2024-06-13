@@ -51,7 +51,7 @@
 }
 
 .show {
-	animation: slideDown 0.3s forwards;
+	animation: slideDown 300ms forwards;
 }
 
 .dropdown .contactBtn {

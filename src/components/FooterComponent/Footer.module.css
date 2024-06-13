@@ -10,9 +10,15 @@
 }
 
 .navContainer p {
+	cursor: pointer;
 	color: hsl(167, 40%, 24%);
 	font-size: 12px;
 	padding: 0.5rem 1rem;
+	transition: all 300ms ease-in-out;
+}
+
+.navContainer p:hover {
+	color: hsl(0, 0%, 100%);
 }
 
 .iconContainer {
@@ -22,5 +28,7 @@
 }
 
 .iconContainer img {
+	cursor: pointer;
 	padding-inline: 0.7rem;
+	transition: all 300ms ease-in-out;
 }

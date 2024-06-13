@@ -26,6 +26,7 @@
 }
 
 .link {
+	cursor: pointer;
 	position: relative;
 	font-family: 'Fraunces', serif;
 	font-optical-sizing: auto;
@@ -40,27 +41,12 @@
 	top: -26px;
 	width: 140px;
 	height: 9px;
-	/* background-color: hsl(51, 100%, 49%); */
 	border-radius: 4.5px;
 	opacity: 0.3;
 	z-index: -1;
-}
-
-/* .link::after {
-	content: '';
-	position: absolute;
-	bottom: 0px;
-	left: 50%;
-	width: 140px;
-	height: 9px;
-	background-color: hsl(51, 100%, 49%);
-	border-radius: 4px;
-	opacity: 0.5;
-	z-index: -1;
-	transform: translate(-50%);
 	transition: all 150ms ease-in-out;
 }
 
-.link:hover::after {
+.link:hover + .underline {
 	opacity: 1;
-} */
+}

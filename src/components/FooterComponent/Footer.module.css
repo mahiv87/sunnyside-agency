@@ -27,7 +27,7 @@
 	margin: 2.2rem 0 1rem 0;
 }
 
-.iconContainer img {
+.iconContainer svg {
 	cursor: pointer;
 	padding-inline: 0.7rem;
 	transition: all 300ms ease-in-out;

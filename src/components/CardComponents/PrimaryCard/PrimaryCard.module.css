@@ -35,14 +35,24 @@
 	color: hsl(212, 27%, 19%);
 }
 
-.link::after {
+.underline {
+	position: relative;
+	top: -26px;
+	width: 140px;
+	height: 9px;
+	background-color: hsl(51, 100%, 49%);
+	border-radius: 4.5px;
+	z-index: -1;
+}
+
+/* .link::after {
 	content: '';
 	position: absolute;
 	bottom: 0px;
 	left: 50%;
 	width: 140px;
 	height: 9px;
-	/* background-color: hsl(51, 100%, 49%); */
+	background-color: hsl(51, 100%, 49%);
 	border-radius: 4px;
 	opacity: 0.5;
 	z-index: -1;
@@ -52,4 +62,4 @@
 
 .link:hover::after {
 	opacity: 1;
-}
+} */

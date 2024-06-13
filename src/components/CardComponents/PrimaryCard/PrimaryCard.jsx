@@ -9,6 +9,7 @@ function Card({ image, altTag, title, text, link, underlineColor }) {
 			<p className={styles.title}>{title}</p>
 			<p className={styles.text}>{text}</p>
 			<p className={styles.link}>{link}</p>
+			<div className={styles.underline}></div>
 		</div>
 	);
 }

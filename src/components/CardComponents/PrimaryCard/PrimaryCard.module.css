@@ -40,8 +40,9 @@
 	top: -26px;
 	width: 140px;
 	height: 9px;
-	background-color: hsl(51, 100%, 49%);
+	/* background-color: hsl(51, 100%, 49%); */
 	border-radius: 4.5px;
+	opacity: 0.3;
 	z-index: -1;
 }
 

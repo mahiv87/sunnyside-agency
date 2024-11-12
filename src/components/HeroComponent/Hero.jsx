@@ -17,10 +17,20 @@ function Hero() {
 			<div className={styles.container}>
 				<div className={styles.nav}>
 					<img src={logo} alt="sunnyside logo" />
+					<div className={styles.menu}>
+						<ul>
+							<li>About</li>
+							<li>Services</li>
+							<li>Projects</li>
+							<li className={styles.contactBtn}>CONTACT</li>
+						</ul>
+					</div>
+
+					{/* Mobile */}
 					<img
 						src={hamburger}
 						alt="hamburger icon for menu"
-						className={styles.menu}
+						className={styles.hamburger}
 						id="menu"
 						onClick={toggleMenu}
 					/>

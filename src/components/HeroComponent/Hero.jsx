@@ -46,7 +46,11 @@ function Hero() {
 					</div>
 				)}
 				<p className={styles.title}>WE ARE CREATIVES</p>
-				<img src={ArrowImage} alt="A white arrow pointing downwards" />
+				<img
+					src={ArrowImage}
+					className={styles.arrow}
+					alt="A white arrow pointing downwards"
+				/>
 			</div>
 		</div>
 	);

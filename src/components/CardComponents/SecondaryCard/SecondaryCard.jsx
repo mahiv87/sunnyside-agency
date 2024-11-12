@@ -12,12 +12,14 @@ function SecondaryCard({ image, title, text, color }) {
 			}}
 			className={styles.container}
 		>
-			<p style={{ color: `${color}` }} className={styles.title}>
-				{title}
-			</p>
-			<p style={{ color: `${color}` }} className={styles.text}>
-				{text}
-			</p>
+			<div className={styles.cardInfo}>
+				<p style={{ color: `${color}` }} className={styles.title}>
+					{title}
+				</p>
+				<p style={{ color: `${color}` }} className={styles.text}>
+					{text}
+				</p>
+			</div>
 		</div>
 	);
 }

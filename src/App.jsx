@@ -7,8 +7,8 @@ import Card from './components/CardComponents/PrimaryCard/PrimaryCard';
 import Hero from './components/HeroComponent/Hero';
 import TransformImage from './assets/images/mobile/image-transform.jpg';
 import StandOutImage from './assets/images/mobile/image-stand-out.jpg';
-import GraphicDesignImage from './assets/images/mobile/image-graphic-design.jpg';
-import PhotographyImage from './assets/images/mobile/image-photography.jpg';
+import GraphicDesignImage from './assets/images/desktop/image-graphic-design.jpg';
+import PhotographyImage from './assets/images/desktop/image-photography.jpg';
 import SecondaryCard from './components/CardComponents/SecondaryCard/SecondaryCard';
 
 function App() {
@@ -33,18 +33,20 @@ function App() {
 				link="LEARN MORE"
 				underlineColor="hsl(7, 99%, 70%)"
 			/>
-			<SecondaryCard
-				image={GraphicDesignImage}
-				title="Graphic Design"
-				text="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
-				color="hsl(167, 40%, 24%)"
-			/>
-			<SecondaryCard
-				image={PhotographyImage}
-				title="Photography"
-				text="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
-				color="hsl(198, 62%, 26%)"
-			/>
+			<div className="secondaryCards">
+				<SecondaryCard
+					image={GraphicDesignImage}
+					title="Graphic Design"
+					text="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
+					color="hsl(167, 40%, 24%)"
+				/>
+				<SecondaryCard
+					image={PhotographyImage}
+					title="Photography"
+					text="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+					color="hsl(198, 62%, 26%)"
+				/>
+			</div>
 			<Testimonials />
 			<ImageCluster />
 			<Footer />

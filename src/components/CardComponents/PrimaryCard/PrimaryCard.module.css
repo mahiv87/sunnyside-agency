@@ -50,3 +50,30 @@
 .link:hover + .underline {
 	opacity: 1;
 }
+
+@media screen and (min-width: 768px) {
+	.container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+
+	.image {
+		width: 50%;
+	}
+
+	.cardInfo {
+		width: 450px;
+		text-align: start;
+		margin-inline: auto;
+	}
+
+	.title {
+		width: 350px;
+		margin-inline: 0;
+	}
+
+	.text {
+		padding: 1rem 0rem;
+	}
+}

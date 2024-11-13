@@ -39,6 +39,7 @@
 .underline {
 	position: relative;
 	top: -26px;
+	left: 146px;
 	width: 140px;
 	height: 9px;
 	border-radius: 4.5px;
@@ -75,5 +76,17 @@
 
 	.text {
 		padding: 1rem 0rem;
+	}
+
+	.underline {
+		position: relative;
+		top: -26px;
+		left: -5px;
+		width: 140px;
+		height: 9px;
+		border-radius: 4.5px;
+		opacity: 0.3;
+		z-index: -1;
+		transition: all 300ms ease-in-out;
 	}
 }

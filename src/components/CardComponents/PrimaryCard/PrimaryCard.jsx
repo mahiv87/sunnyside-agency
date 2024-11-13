@@ -12,11 +12,13 @@ function Card({ image, altTag, title, text, link, underlineColor, reversed }) {
 			<div className={styles.cardInfo}>
 				<p className={styles.title}>{title}</p>
 				<p className={styles.text}>{text}</p>
-				<p className={styles.link}>{link}</p>
-				<div
-					className={styles.underline}
-					style={{ backgroundColor: underlineColor }}
-				></div>
+				<div>
+					<p className={styles.link}>{link}</p>
+					<div
+						className={styles.underline}
+						style={{ backgroundColor: underlineColor }}
+					></div>
+				</div>
 			</div>
 		</div>
 	);

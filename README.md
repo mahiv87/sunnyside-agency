@@ -31,8 +31,8 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/sunnyside-agency-built-with-react-VuoX_LjuRG)
+- Live Site URL: [Sunnyside Agency](https://mahiv87.github.io/sunnyside-agency/)
 
 ## My process
 

@@ -82,6 +82,7 @@
 	margin: 1.3rem 0;
 	font-size: 24px;
 	color: hsl(232, 10%, 55%);
+	cursor: pointer;
 }
 
 .show {
@@ -152,7 +153,7 @@
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.menu {
 		display: none;
 	}

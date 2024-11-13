@@ -24,6 +24,7 @@ function App() {
 				of the marketing for you."
 				link="LEARN MORE"
 				underlineColor="hsl(51, 100%, 49%)"
+				reversed="yes"
 			/>
 			<Card
 				image={StandOutImage}
@@ -32,6 +33,7 @@ function App() {
 				text="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places."
 				link="LEARN MORE"
 				underlineColor="hsl(7, 99%, 70%)"
+				reversed="no"
 			/>
 			<div className="secondaryCards">
 				<SecondaryCard

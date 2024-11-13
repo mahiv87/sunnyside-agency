@@ -2,9 +2,12 @@ import PropTypes from 'prop-types';
 
 import styles from './PrimaryCard.module.css';
 
-function Card({ image, altTag, title, text, link, underlineColor }) {
+function Card({ image, altTag, title, text, link, underlineColor, reversed }) {
+	const containerClass =
+		reversed === 'yes' ? styles.reversedContainer : styles.container;
+
 	return (
-		<div className={styles.container}>
+		<div className={containerClass}>
 			<img src={image} alt={altTag} className={styles.image} />
 			<div className={styles.cardInfo}>
 				<p className={styles.title}>{title}</p>
@@ -25,7 +28,8 @@ Card.propTypes = {
 	title: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
-	underlineColor: PropTypes.string.isRequired
+	underlineColor: PropTypes.string.isRequired,
+	reversed: PropTypes.string.isRequired
 };
 
 export default Card;

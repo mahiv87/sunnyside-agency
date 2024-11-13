@@ -55,6 +55,12 @@
 @media screen and (min-width: 768px) {
 	.container {
 		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.reversedContainer {
+		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
 	}

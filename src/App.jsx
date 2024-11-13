@@ -13,7 +13,7 @@ import SecondaryCard from './components/CardComponents/SecondaryCard/SecondaryCa
 
 function App() {
 	return (
-		<div>
+		<div className="container">
 			<Hero />
 			<Card
 				image={TransformImage}
@@ -57,7 +57,11 @@ function App() {
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
 					Frontend Mentor
 				</a>
-				. Coded by <a href="#">Your Name Here</a>.
+				. Coded by{' '}
+				<a href="https://github.com/mahiv87" target="_blank">
+					Marcus Herrera
+				</a>
+				.
 			</div>
 		</div>
 	);

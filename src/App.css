@@ -1,10 +1,14 @@
-#root {
-	max-width: 1440px;
+:root {
+	/* max-width: 1440px; */
 	margin: 0 auto;
 	text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+.container {
+	width: 100vw;
+}
+
+@media screen and (min-width: 992px) {
 	.secondaryCards {
 		display: flex;
 		height: 599px;

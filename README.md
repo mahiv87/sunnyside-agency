@@ -47,6 +47,6 @@ Mobile View
 
 ## Author
 
-- Website - [Marcus Herrera](https://www.your-site.com)
+- Website - [Marcus Herrera](https://mahiv87.github.io/hire-marcus/)
 - Frontend Mentor - [@mahiv87](https://www.frontendmentor.io/profile/@mahiv87)
 - Bluesky - [@voxtroller.bsky.social](https://bsky.app/profile/voxtroller.bsky.social)

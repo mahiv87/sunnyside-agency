@@ -31,3 +31,15 @@
 	color: hsl(210, 4%, 67%);
 	margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 355px;
+		padding: 0 1rem 0 0;
+	}
+
+	.text {
+		font-size: 18px;
+		padding: 1rem 0;
+	}
+}

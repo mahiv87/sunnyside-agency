@@ -143,6 +143,23 @@
 		width: 100%;
 	}
 
+	.contactBtn {
+		font-family: 'Fraunces', serif;
+		font-optical-sizing: auto;
+		font-weight: 900;
+		font-style: normal;
+		font-variation-settings: 'SOFT' 0, 'WONK' 0;
+	}
+
+	.contactBtn:hover {
+		color: hsl(212, 27%, 19%);
+		font-family: 'Fraunces', serif;
+		font-optical-sizing: auto;
+		font-weight: 900;
+		font-style: normal;
+		font-variation-settings: 'SOFT' 0, 'WONK' 0;
+	}
+
 	.hamburger {
 		display: none;
 	}
